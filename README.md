@@ -27,4 +27,4 @@ There are a total of 8 scripts for each class as follows.
 To run the program, you can download all the scripts and run the `test.py` file in the terminal to start the simulation. You can also edit the file to create different objects for testing.
 
 ## Disclaimer
-As the above is a mini-project done for a programming course, the design of the program is minimal and basic. It is by no means intend to be implemented in practical or real-world scenarios. 
+As the above is a mini-project done for a programming course, the design of the program is minimal and basic. It is by no means intended to be implemented in practical or real-world scenarios. 
