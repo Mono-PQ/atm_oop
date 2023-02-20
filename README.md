@@ -1,12 +1,7 @@
-# Basic Practice of Object-oriented Programming in Python
+# Basic Object-oriented Programming for ATM terminal simulation in Python
 
 ## Introduction
 A simulation of a scaled down version of an automated teller machine (ATM) using basic object orientation principles such as encapsulation, inheritance, abstraction, polymorphism. All codes and scripts are written in Python. 
-
-Libraries used:
-- `random` library 
-- `datetime` library
-- `abc` library
 
 ## Assumptions 
 - Each customer has either savings or current, or both accounts. There will not be any customer with more than two types of account. 
@@ -27,4 +22,4 @@ There are a total of 8 scripts for each class as follows.
 To run the program, you can download all the scripts and run the `test.py` file in the terminal to start the simulation. You can also edit the file to create different objects for testing.
 
 ## Disclaimer
-As the above is a mini-project done for a programming course, the design of the program is minimal and basic. It is by no means intended to be implemented in practical or real-world scenarios. 
+As the above is a mini-project done for a programming course, the design of the program is minimal.

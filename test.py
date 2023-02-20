@@ -11,7 +11,7 @@ atm_01 = ATM("tannery lane 78", bank_01)
 # bank_01 has 1 atm
 bank_01.maintains(atm_01)
 # set up customer object.
-# customer 1 has 1 savings acct with 8k and 1 current acct with 5k with
+# customer 1 has 1 savings acct with 8k and 1 current acct with 5k with bank_01
 bank_01
 cust_01 = Customer('Tom', 'abc lane', '15-may-1987')
 save_01 = Savings_Account("458-96252", cust_01)
@@ -34,7 +34,7 @@ save_02.credit(6000)
 # ATM card
 dc_02 = ATM_Card("847-9521-248-8451", cust_02)
 bank_01.manages(dc_02)
-bank_01.add_customer(cust_02, "8745")
+bank_01.add_customer(cust_02, "0000")
 #print customer info
 print(cust_01)
 print(dc_01)
